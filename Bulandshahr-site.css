@@ -1,29 +1,75 @@
 * {
     margin: auto;
     padding: 0%;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: beige;
+    /* background-color: beige; */
+    background-image: url('download.jfif');
+    background-size: cover;
+    /* filter:blur(8px); */
 }
 
-.header {
-    text-align: center;
+.background-text {
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+nav,
+ul,
+a {
+    color: white;
     font-weight: bolder;
     font-size: larger;
-    background-color: violet;
-    color: black;
-    padding: 2%;
+    word-spacing: 10rem;
+    width: max-content;
 }
 
-.main {
-    color: black;
-    padding: 2%;
+a {
+    text-decoration: none;
+}
+
+.card {
+    width: 80%;
+    box-sizing: border-box;
+    border: white;
+    background-image: url("download (1).jfif");
+    background-size: cover;
+    padding:2%;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding: 2rem;
+}
+/* Gallery container styling */
+.gallery {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    /* gap: 10px; Sets a consistent gap between images */
+    justify-content: center; /* Center-aligns the images */
 }
 
-.footer {
-    background-color: violet;
-    padding: 2%;
+/* Styling each image */
+.gallery img {
+    width: 200px; /* Set a fixed width for all images */
+    height: 250px; /* Set a fixed height for all images */
+    /* object-fit: cover; Ensures images fill the set dimensions without distortion */
+    /* border-radius: 8px; Optional: rounded corners */
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+}
+
+.card2 {
+   display:flex;
 }
