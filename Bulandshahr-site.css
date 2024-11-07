@@ -23,8 +23,8 @@ a {
     color: white;
     font-weight: bolder;
     font-size: larger;
-    word-spacing: 10rem;
-    width: max-content;
+    word-spacing: 7rem;
+    width: fit-content;
 }
 
 a {
@@ -37,7 +37,7 @@ a {
     border: white;
     background-image: url("download (1).jfif");
     background-size: cover;
-    padding:2%;
+    padding: 2%;
 }
 
 h2 {
@@ -45,31 +45,59 @@ h2 {
     color: white;
     font-weight: bolder;
     font-size: 3rem;
-    padding: 2rem;
+    padding: 1rem;
 }
+
 /* Gallery container styling */
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    /* gap: 10px; Sets a consistent gap between images */
-    justify-content: center; /* Center-aligns the images */
+    justify-content: center;
 }
 
 /* Styling each image */
 .gallery img {
-    width: 200px; /* Set a fixed width for all images */
-    height: 250px; /* Set a fixed height for all images */
-    /* object-fit: cover; Ensures images fill the set dimensions without distortion */
-    /* border-radius: 8px; Optional: rounded corners */
+    width: 200px;
+    height: 250px;
 }
 
-footer {
-    text-align: center;
-    padding: 3px;
-    background-color: DarkSalmon;
-    color: white;
-}
-
+/* Card2 container styling to align sections horizontally */
 .card2 {
-   display:flex;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.section {
+    display: inline-block;
+    vertical-align:bottom;
+    width: 30%;
+    /* Adjust width as needed for proper alignment */
+    margin: 10px;
+    text-align: center;
+    background-color: black;
+    padding:1%
+}
+
+/* Slideshow styling */
+.slideshow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+    background-color: black;
+    max-height: 200px;
+}
+
+.slideshow img {
+    width: 250px;
+    /* Fixed width for images in the slideshow */
+    height: 200px;
+}
+
+button{
+    padding: 1%;
+    font-size: larger;
 }
