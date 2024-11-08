@@ -58,9 +58,67 @@ h2 {
 .gallery img {
     width: 200px;
     height: 250px;
-    padding: 1px;
+    padding: 1%;
 }
 
+
+.row {
+    background-color: black;
+    padding: 2%;
+    column-count: 3;
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    gap: 3%;
+}
+
+.info {
+    background-color: white;
+    padding: 1%;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 25%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.info p {
+    font-size: 1rem;
+}
+
+.district-info {
+    color: black;
+    background-color: beige;
+    padding: 2%;
+    width: 50%;
+}
+
+.district-info h2 {
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.district-info p {
+    color: black;
+    padding: 1%;
+    font-size: 1rem;
+    word-spacing: normal;
+}
+
+.dm-info {
+    color: black;
+    background-color: beige;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+    width: 25%;
+}
+.dm-info img{
+    height: 100%;
+    width:100%;
+}
 /* Card2 container styling to align sections horizontally */
 .card2 {
     display: flex;
@@ -105,47 +163,15 @@ button {
     font-weight: bolder;
 }
 
-.row {
+.card3{
+    display:flex;
     background-color: black;
-    padding: 1%;
-    column-count: 3;
-    display: flex;
-    /* flex-wrap: wrap; */
-    width: 100%;
-    gap: 3%;
+    width:100%;
+    column-count: 2;
+    padding:2%;
 }
-
-.info {
+.footer{
+    width:50%;
     background-color: white;
-    padding: 2%;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.district-info {
-    color: black;
-    background-color: beige;
-    padding: 3%;
-}
-
-.district-info h2 {
-    color: black;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 2rem;
-}
-
-.district-info p {
-    color: black;
-    padding: 1%;
-    font-size: 1rem;
-    word-spacing: normal;
-}
-
-.dm-info {
-    color: black;
-    background-color: beige;
-    align-items: center;
-    text-align: center;
-    padding: 2%;
+    padding:1%;
 }
