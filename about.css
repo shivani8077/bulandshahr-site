@@ -1,0 +1,125 @@
+* {
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('download.jfif');
+    background-size: cover;
+}
+
+.background-text {
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+nav,
+ul,
+a {
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    word-spacing: 13rem;
+    width: 100%;
+    text-align: center;
+}
+
+nav,
+ul,
+a:hover {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    width: 80%;
+    box-sizing: border-box;
+    border: white;
+    background-image: url("download (1).jfif");
+    background-size: cover;
+    padding: 2%;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+/* Gallery container styling */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: center;
+}
+
+/* Styling each image */
+.gallery img {
+    width: 200px;
+    height: 200px;
+    padding: 1%;
+}
+
+.row {
+    background-color: black;
+    padding: 2%;
+    column-count: 3;
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    gap: 3%;
+}
+
+.district-info {
+    color: black;
+    background-color: beige;
+    padding: 2%;
+    width: 100%;
+}
+
+.district-info p {
+    color: black;
+    padding: 1%;
+    font-size: 1rem;
+    word-spacing: normal;
+}
+
+.district-info h3 {
+    color: black;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 1%;
+}
+
+.footer ul {
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+}
+
+.footer a {
+    word-spacing: 0rem;
+    font-weight: bolder;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.last-update {
+    text-align: center;
+}
