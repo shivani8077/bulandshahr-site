@@ -52,6 +52,10 @@ h2 {
     font-size: 3rem;
     padding: 1rem;
 }
+i{
+    size: 2%;
+font-weight: bolder;    
+}
 
 /* Gallery container styling */
 .gallery {
@@ -122,4 +126,4 @@ h2 {
 
 .last-update {
     text-align: center;
-}
+}  

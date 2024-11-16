@@ -211,6 +211,23 @@ button {
     /* padding: 1%; */
 }
 
+.view-more {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(144, 144, 212);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-more:hover {
+    background-color: #0056b3;
+}
+
 .Right {
     width: 30%;
     color: white;
